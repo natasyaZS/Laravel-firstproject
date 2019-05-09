@@ -42,10 +42,7 @@
 						<label for="exampleInputPassword1">Penganjur</label>
 						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Penganjur">
 					</div>
-						
-			<div class="box-footer">
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</div>
+			
 				
 				</div>
 				<!-- /.box-body -->
@@ -68,11 +65,11 @@
 				<div class="form-group">
                   <label>1.Nyatakan tahap pemahaman anda terhadap kursus yang diikuti</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 					
