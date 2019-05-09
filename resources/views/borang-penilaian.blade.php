@@ -65,6 +65,7 @@
 				<div class="form-group">
                   <label>1.Nyatakan tahap pemahaman anda terhadap kursus yang diikuti</label>
                   <select class="form-control">
+                    <option></option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
