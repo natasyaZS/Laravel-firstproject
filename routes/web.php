@@ -20,7 +20,7 @@ Route::get('/borang-penilaian', function () {
     return view('borang-penilaian');
 });
 
-Route::get('/borang-penilaian', function () {
+Route::post('/borang-penilaian', function () {
 	
 	$pdf = PDF::loadView('borang-penilaian-pdf');
 	return $pdf->stream('document.pdf');
