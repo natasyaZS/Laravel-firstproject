@@ -56,13 +56,13 @@ body,td,th {
             <td width="58%" align="left" style="border-bottom: 1px solid black;"></td>
           </tr>
           <tr>
-          <td width="6%">3.</td>
+            <td width="6%">3.</td>
             <td width="32%" align="left">Jawatan</td>
             <td width="4%" align="left">:</td>
             <td width="58%" align="left" style="border-bottom: 1px solid black;"></td>
           </tr>
           <tr>
-             <td width="6%">4.</td>
+            <td width="6%">4.</td>
             <td width="32%" align="left">Nama Kursus</td>
             <td width="4%" align="left">:</td>
             <td width="58%" align="left" style="border-bottom: 1px solid black;"></td>
@@ -79,40 +79,42 @@ body,td,th {
             <td width="4%" align="left">:</td>
             <td width="58%" align="left" style="border-bottom: 1px solid black;"></td>
           </tr>
+        </tbody>
+      </table></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><span style="text-align: left">Tandakan tahap kepuasan anda mengenai kursus ini dengan menandakan petak-petak yang berkaitan mengikut skala yang telah ditetapkan di bawah.</span></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tbody>
           <tr>
-            <td colspan="4">&nbsp;</td>
-            </tr>
-          <tr>
-            <td colspan="4" style="text-align: left">Tandakan tahap kepuasan anda mengenai kursus ini dengan menandakan petak-petak yang berkaitan mengikut skala yang telah ditetapkan di bawah.</td>
-            </tr>
-          <tr>
-            <td colspan="4">&nbsp;</td>
-            </tr>
-          <tr>
-            <td colspan="4">&nbsp;</td>
+            <td width="100%" style="text-align: left">A. Meningkatkan Pengetahuan</td>
           </tr>
           <tr>
-            <td colspan="4" style="text-align: left">A. Meningkatkan Pengetahuan</td>
+            <td style="text-align: left">&nbsp;</td>
           </tr>
           <tr>
-            <td colspan="4" style="text-align: left">&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="4"><table width="99%" height="421" border="1" cellpadding="0" cellspacing="0" style="border: 1px solid black;border-collapse: collapse">
+            <td><table width="100%" border="1" cellspacing="0" cellpadding="5">
               <tbody>
                 <tr>
-                  <td width="9%"><b>Bil</b></td>
-                  <td width="66%"><b>Perkara</b></td>
-                  <td width="5%"><b>1</b></td>
-                  <td width="5%"><b>2</b></td>
-                  <td width="5%"><b>3</b></td>
-                  <td width="5%"><b>4</b></td>
-                  <td width="5%"><b>5</b></td>
+                  <td width="5%">Bil</td>
+                  <td width="70%">Perkara</td>
+                  <td width="5%">1</td>
+                  <td width="5%">2</td>
+                  <td width="5%">3</td>
+                  <td width="5%">4</td>
+                  <td width="5%">5</td>
                 </tr>
                 <tr>
-				
                   <td>1</td>
-                  <td style="text-align: left">Nyatakan tahap pemahaman anda terhadap kursus yang diikuti</td>
+                  <td style="text-align: left">Nyatakan tahap pemahaman and terhadap kursus yang diikuti</td>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
@@ -121,7 +123,7 @@ body,td,th {
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td style="text-align: justify">Pengetahuan yang diperolehi setelah mengikuti kursus ini</td>
+                  <td style="text-align: left">Pengetahuan yang diperolehi setelah mengikuti kursus ini</td>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
                   <td>&nbsp;</td>
@@ -147,17 +149,26 @@ body,td,th {
                   <td>&nbsp;</td>
                 </tr>
                 <tr>
-                  <td colspan="7" style="text-align: left">Jumlah Kecil</td>
-                  </tr>
+                  <td colspan="2" style="text-align: left">Jumlah Kecil</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
                 <tr>
                   <td colspan="2" style="text-align: center">Jumlah Besar</td>
-                  <td colspan="5">&nbsp;</td>
-                  </tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
               </tbody>
             </table></td>
           </tr>
           <tr>
-            <td colspan="4">&nbsp;</td>
+            <td>&nbsp;</td>
           </tr>
         </tbody>
       </table></td>
@@ -166,7 +177,7 @@ body,td,th {
 </table>
 
 	<pagebreak>
-	<table width="100%" border="0">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tbody>
     <tr>
       <td align="right"><table style="border-collapse: collapse" width="401" border="1" cellpadding="0" cellspacing="0">
@@ -188,7 +199,7 @@ body,td,th {
     </tr>
     
     <tr>
-      <td style="text-align: center"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+      <td style="text-align: center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tbody>
          
           <tr>
@@ -279,7 +290,7 @@ body,td,th {
           </tr>
 			
 			   <tr>
-            <td colspan="4"><table width="100%" height="290" border="1" cellpadding="0" cellspacing="0" style="border: 1px solid black; border-collapse: collapse ">
+            <td colspan="4"><table width="100%" height="290" border="1" cellpadding="5" cellspacing="0" style="border: 1px solid black; border-collapse: collapse ">
               <tbody>
                 <tr>
                   <td width="9%"><b>Bil</b></td>
@@ -370,7 +381,7 @@ body,td,th {
             <td colspan="4" style="text-align: left">&nbsp;</td>
           </tr>
           <tr>
-            <td colspan="4"><table width="97%" height="598" border="1" cellpadding="0" cellspacing="0" style="border: 1px solid black; border-collapse: collapse">
+            <td colspan="4"><table width="97%" height="598" border="1" cellpadding="5" cellspacing="0" style="border: 1px solid black; border-collapse: collapse">
               <tbody>
                 <tr>
                   <td width="9%"><b>Bil</b></td>
