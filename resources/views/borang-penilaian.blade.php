@@ -4,7 +4,8 @@
 
 @section( 'content_header' )
 	<h1>Borang penilaian</h1> @stop @section('content')
-		<form role="form">
+		<form role="form" method="post" action="borang-penilaian">
+			@csrf
 		<div class="row">		
 <div class="col-md-6">
 		
@@ -77,31 +78,31 @@
 					<div class="form-group">
                   <label>2.Pengetahuan yang diperolehi setelah mengikuti kursus ini</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 						<div class="form-group">
                   <label>3.Bolehkah anda mempraktikkan kemahiran yang diperolehi</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 					<div class="form-group">
                   <label>4.Kemahiran menyelesaikan masalah berkaitan dengan kursus yang diikuti </label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -124,11 +125,11 @@
 				<div class="form-group">
                   <label>1.Keberkesanan kursus yang diikuti secara keseluruhan </label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -137,24 +138,23 @@
 				<div class="form-group">
                   <label>2.Tahap pemahaman selepas mengikuti kursus</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
-                  </select>
-                </div>	
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>                </div>	
 			
 		</div>
 				<div class="box-body">		
 				<div class="form-group">
                   <label>3.Adakah jangkamasa kursus sesuai</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -163,11 +163,11 @@
 				<div class="form-group">
                   <label>4.Objektif sebenar kursus tercapai</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -176,11 +176,11 @@
 				<div class="form-group">
                   <label>5.Adakah kaedah penyampaian dan latihan sesuai</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -203,11 +203,11 @@
 				<div class="form-group">
                   <label>1.Sejauh manakah kursus ini berfaedah kepada Jabatan</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -216,11 +216,11 @@
 				<div class="form-group">
                   <label>2.Adakah tugas sekarang sesuai dengan kursus yang diikuti</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -229,11 +229,11 @@
 				<div class="form-group">
                   <label>3.Adakah kursus ini dapat meningkatkan kemahiran kepada tugas semasa</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -256,11 +256,11 @@
 				<div class="form-group">
                   <label>1.Pensyarah yang berpengalaman (Penyampaian Latihan)</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -273,11 +273,11 @@
 					<br>c.Penganjur/ Pengurusan Institut Latihan 
 					</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
@@ -290,11 +290,11 @@
 					<br>c.Nota dan alat bantuan mengajar
 					<br>d.Makan dan minum</label>
                   <select class="form-control">
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                    <option>option 5</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                   </select>
                 </div>	
 			
