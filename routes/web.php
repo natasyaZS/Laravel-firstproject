@@ -20,12 +20,9 @@ Route::get('/borang-penilaian', function () {
     return view('borang-penilaian');
 });
 
-Route::post('/borang-penilaian', function () {
-	
-	$pdf = PDF::loadView('borang-penilaian-pdf');
-	return $pdf->stream('document.pdf');
-    //return view('borang-penilaian-pdf');
-});
+Route::post('/borang-penilaian','PdfController@form_evaluation');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
